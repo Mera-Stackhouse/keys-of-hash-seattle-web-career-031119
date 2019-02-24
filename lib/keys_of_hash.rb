@@ -4,5 +4,8 @@ class Hash
     hash.each { |key, value|
       if value == args
         array << key 
+      end
+    }
+    array
   end
 end
