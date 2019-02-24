@@ -1,13 +1,14 @@
 class Hash
   def keys_of(args)
     array = []
-    
+    args.each { |argument|
       self.each { |key, value|
-        if value == args
+        if value == argument
           array << key 
         end
       }
-      array
+    }  
+    array
   end
 end
 
