@@ -2,7 +2,7 @@ class Hash
   def keys_of(*args)
     array = []
     self.each { |element|
-      if value == args
+      if element == args
         array << key 
       end
     }
