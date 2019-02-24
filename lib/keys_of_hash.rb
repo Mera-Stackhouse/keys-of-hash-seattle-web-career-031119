@@ -1,7 +1,7 @@
 class Hash
-  def keys_of(self, *args)
+  def keys_of(*args)
     array = []
-    args.each { |element|
+    self.each { |element|
       if value == args
         array << key 
       end
