@@ -11,6 +11,5 @@ class Hash
 end
 
 
-animals.key_of('Panama')
 
 
